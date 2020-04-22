@@ -60,12 +60,32 @@ body {
 
 .slider {
     background: green;
+    height: 400px;
 }
 
 .slider-block {
     background: lightblue;
     width: 1000px;
+    height: 400px;
     margin: 0 auto;
+    background-image: url(http://placeimg.com/1000/400/nature);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.slider-block h4 {
+    font-size: 16px;
+}
+
+.slider-block h3 {
+    font-size: 22px;
+}
+
+.slider-block p {
+    font-size: 12px;
 }
 
 .content {
