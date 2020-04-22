@@ -134,10 +134,13 @@ body {
 
 .footer {
     background: gray;
+    height: 50px;
 }
 
-.footer-block {
-    background: magenta;
-    width: 1000px;
-    margin: 0 auto;
+.footer p {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
 }
