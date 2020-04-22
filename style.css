@@ -55,6 +55,12 @@ body {
 .header-block .social-media {
     width: 200px;
     float: left;
+    margin-top: 35px;
+}
+
+.social-media i {
+    margin-left: 20px;
+    float: right;
 }
 
 .social-media img {
