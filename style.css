@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 60px;
+}
+
+.header .header-block {
+    background: indianred;
+    width: 1000px; 
+    /* margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0;
+    margin-bottom: 0; */
+
+    /* margin: top right bottom left */
+    /* margin: 0 200px 0 200px; */
+
+    /* margin: topbottom rightleft */
+    margin: 0 auto;
+}
+
+.header-block .logo {
+    width: 200px;
+    float: left;
+}
+
+.header-block .menu {
+    width: 600px;
+    float: left;
+}
+
+.menu ul {
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: red;
+}
+
+.header-block .social-media {
+    width: 200px;
+    float: left;
+}
+
+.social-media img {
+    float: left;
+}
+
+.slider {
+    background: green;
+}
+
+.slider-block {
+    background: lightblue;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content {
+    background: violet;
+}
+
+.content-block {
+    background: lightseagreen;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: gray;
+}
+
+.footer-block {
+    background: magenta;
+    width: 1000px;
+    margin: 0 auto;
+}
