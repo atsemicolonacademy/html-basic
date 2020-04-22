@@ -25,6 +25,10 @@ body {
     float: left;
 }
 
+.logo h1 {
+    font-family: 'Bangers', cursive;
+}
+
 .header-block .menu {
     width: 600px;
     float: left;
